@@ -1,16 +1,18 @@
--- A quick benchmark of a matrix multiple, comparing CUDA GPU vs CPU I7
---
--- Python Version  : 3.12.7
--- PyTorch Version : 2.6.0+cu126
--- Cuda Version    : 12.8
--- GPU Version     : NVIDIA GeForce RTX 4050 
--- CPU Version     : Intel 13th Gen i7-1362H 2.40 GHz
--- 
--- Results (lower is better) : 
---
---	  System          CPU Time   GPU Time 
---    =============+===========+=========
---    i7+RTX 4050     320        0.42 
+'''
+A quick benchmark of a matrix multiple, comparing CUDA GPU vs CPU I7
+
+Python Version  : 3.12.7
+PyTorch Version : 2.6.0+cu126
+Cuda Version    : 12.8
+GPU Version     : NVIDIA GeForce RTX 4050 
+CPU Version     : Intel 13th Gen i7-1362H 2.40 GHz
+ 
+Results in seconds  (lower is better) : 
+
+    System          CPU Time   GPU Time 
+    =============+===========+=========
+    i7+RTX 4050     320        0.42 
+'''
 
 import time                                                                                      	
 import torch                                                                                                                                                                                          
